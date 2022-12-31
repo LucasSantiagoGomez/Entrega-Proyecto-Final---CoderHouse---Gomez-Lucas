@@ -1,0 +1,286 @@
+
+
+/*VENTANA PRODUCTOS*/
+.body{
+    background-color:black;
+}
+
+.navLinks{
+    display: grid;
+    justify-content: space-around;
+    color: aliceblue;
+    list-style: none;
+    text-decoration:none;
+}
+.navLinks:hover{
+    color:rgb(252, 107, 107) ;
+    transition: 0.5s;
+}
+
+.CartaCompra{
+    grid-template-columns: repeat(5,300px);
+    grid-template-rows: repeat(2,auto);
+    row-gap: 20px; 
+    display: grid;
+    justify-content: center;
+      
+}
+
+.imagenCarta{
+    width: 290px;
+    height: 450px;
+    display: grid;  
+}
+
+.nombreProducto{
+    color: aliceblue;
+}
+.precioProducto{
+    color: beige;
+}
+
+.menuNavHeader{
+    display: flex;
+    
+    justify-content: space-around;
+    height: 80px;
+    
+}
+
+.Logo{
+    color: aliceblue;
+    font-size: 2em;
+    text-decoration:none;
+}
+.Logo:hover{
+    color: rgb(252, 107, 107) ;
+    transition: 0.5s;
+    
+}
+
+.botonDetalles{
+    color: aliceblue;
+    text-decoration:none;
+}
+.botonDetalles:hover{
+    color: rgb(252, 107, 107) ;
+    transition: 0.5s;
+}
+.carrito{
+    color: azure;
+    height: 25px;
+    width: 55px;
+    
+}
+.carrito:hover{
+    color: rgb(252, 107, 107) ;
+    transition: 0.5s;
+}
+
+.carritoIcon{
+    display: flex;
+    position: relative;
+    color: white;
+    
+}
+
+.contadorCarrito{
+    position: absolute;
+    top: -5px;
+    right: 2px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(245, 115, 115);
+    border-radius: 50%;
+    
+}
+
+.colorTxtSa{
+    color: aliceblue;
+}
+
+
+
+
+
+
+/*VENTANA DETALLES*/
+
+    
+
+.tituloDetalles{
+    color: rgb(245, 115, 115);
+}
+
+.imagenDetalles{
+    border-radius: 10px;
+    
+   
+}
+.hola{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+}
+.botonMasyMenos{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    column-gap: 30px;
+    margin-left: 10px;
+    justify-content:left;
+    
+}
+
+.textoDetalles{
+    display: flex;
+   
+    float: center;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 1.2em;
+     
+}
+.precioDetalle{
+    color: aliceblue;
+}
+.stock{
+    color: aliceblue;
+}
+.botonCarrito{
+    background-color: rgb(77, 77, 77);
+    color: white;
+    border-radius: 5px;
+    width: 40px;
+}
+.botonCarrito:hover{
+    color: rgb(252, 107, 107);
+    transition: 0.5s;
+    box-shadow:  1px 1px 10px 5px rgb(252, 107, 107);
+}
+.numeroContador{
+    color: aliceblue;
+    font-size: 1.3em;
+}
+.añadirAlcarritoBtn{
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+
+}
+.añadirAlcarritoBtn:hover{
+    color: rgb(252, 107, 107);
+    transition: 0.5s;
+    box-shadow:  1px 1px 10px 5px rgb(252, 107, 107);
+    
+}
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.botonVerCarrito{
+    background-color: rgb(65, 65, 65);
+    color: aliceblue;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.botonVerCarrito:hover{
+    color: rgb(245, 115, 115);
+    transition: 0.5s;
+    box-shadow:  1px 1px 10px 5px rgb(252, 107, 107);
+    
+
+}
+
+/*ventana Carrito*/
+.TituloCarrito{
+    color: rgb(252, 107, 107);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+}
+.CarritoVacio{
+    color: rgb(245, 115, 115);
+    font-family: 'Times New Roman', Times, serif;
+}
+.botonEliminarTodo{
+    display: grid;
+    margin-bottom: 10px;
+    background-color: rgb(65, 65, 65);
+    color: aliceblue;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin-left: 15px;
+    align-items: center;
+}
+.botonEliminarTodo:hover{
+    color: rgb(245, 115, 115);
+    transition: 0.5s;
+    box-shadow:  1px 1px 10px 5px rgb(252, 107, 107);
+    
+}
+
+.imagenCarrito{
+    height: 150px;
+    width: 80px;
+    border-radius: 10px;
+}
+.textoCarrito{
+    color: aliceblue;
+    font-size: 1.2em;
+}
+.divisor{
+    color:white;
+}
+.botonEliminar{
+    background-color: rgb(65, 65, 65);
+    color: aliceblue;
+    border-radius: 10px;
+}
+.botonEliminar:hover{
+    color: rgb(245, 115, 115);
+    transition: 0.5s;
+    box-shadow:  1px 1px 10px 5px rgb(252, 107, 107);
+}
+
+
+/*Compra Final*/
+.cartaFinalizarHeader{
+    color: rgb(252, 107, 107);
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.subTotal{
+    color: white;
+
+}
+
+.Total{
+    color: white;
+    font-size: 1.5em;
+}
+
+.FinalizarCompra{
+    background-color: rgb(65, 65, 65);
+    color: aliceblue;
+    border-radius: 10px;
+    
+}
+
+.FinalizarCompra:hover{
+    color: rgb(245, 115, 115);
+    transition: 0.5s;
+    box-shadow:  1px 1px 10px 5px rgb(252, 107, 107);
+}
+.CartaFinalizarContainer{
+    margin-left: 35px;
+}
